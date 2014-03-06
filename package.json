@@ -1,0 +1,15 @@
+{
+  "name": "markdown-stream",
+  "main": "./lib/markdown-stream.js",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A short description of your package",
+  "activationEvents": ["markdown-stream:toggle"],
+  "repository": "https://github.com/atom/markdown-stream",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

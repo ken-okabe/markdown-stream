@@ -1,0 +1,23 @@
+{
+  "context-menu": {
+    ".overlayer": {
+      "MarkdownStream": "markdown-stream:toggle"
+    }
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "MarkdownStream",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "markdown-stream:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
