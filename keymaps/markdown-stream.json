@@ -1,5 +1,5 @@
 {
   ".workspace": {
-    "ctrl-alt-o": "markdown-stream:toggle"
+    "ctrl-alt-o": "markdown-stream:preview"
   }
 }

@@ -1,7 +1,7 @@
 {
   "context-menu": {
     ".overlayer": {
-      "MarkdownStream": "markdown-stream:toggle"
+      "MarkdownStream": "markdown-stream:preview"
     }
   },
   "menu": [
@@ -12,8 +12,8 @@
           "label": "MarkdownStream",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "markdown-stream:toggle"
+              "label": "Preview Buffer",
+              "command": "markdown-stream:preview"
             }
           ]
         }
