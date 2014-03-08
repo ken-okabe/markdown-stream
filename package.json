@@ -2,8 +2,8 @@
   "name": "markdown-stream",
   "main": "./lib/markdown-stream.js",
   "version": "0.0.1",
-  "description": "GitHub ATOM Markdown Live Stream Preview package",
-  "repository": "https://github.com/atom/markdown-stream",
+  "description": "GitHub ATOM Markdown Live Streaming Preview package",
+  "repository": "https://github.com/kenokabe/markdown-stream",
   "author": "Ken OKABE",
   "license": "MIT",
   "engines":
@@ -14,6 +14,7 @@
   {
     "rpc-streamx": "*",
     "stream-websocket": "*",
-    "ws": "*"
+    "ws": "*",
+    "portscanner": "*"
   }
 }
