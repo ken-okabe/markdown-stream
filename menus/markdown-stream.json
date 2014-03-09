@@ -10,12 +10,7 @@
       "submenu": [
         {
           "label": "MarkdownStream",
-          "submenu": [
-            {
-              "label": "Preview Buffer",
-              "command": "markdown-stream:preview"
-            }
-          ]
+          "command": "markdown-stream:preview"
         }
       ]
     }
