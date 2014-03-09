@@ -2,16 +2,28 @@
 {
   background-color: ffffff;
   margin-left: 50px;
-  margin-right: 20px; 
+  margin-right: 20px;
   font-size: 20px;
- 
+
 }
 
 hr
 {
 	border: 0;
-	width: 100%; 
+	width: 100%;
 	background-color: #888888;
 	height: 2px;
 }
- 
+
+pre
+{
+	color: #ffffff;
+  background-color: #000000;
+  padding:10px; 
+}
+
+code
+{
+	color: #ffffff;
+  background-color: #000000; 
+}
