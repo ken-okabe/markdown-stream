@@ -3,7 +3,12 @@
   "version": "0.0.1",
   "description": "GitHub ATOM Markdown Live Streaming Preview package",
   "repository": "https://github.com/kenokabe/markdown-stream",
-  "author": "Ken OKABE",
+  "author":
+  {
+    "name": "Ken OKABE",
+    "email": "kenokabe@gmail.com",
+    "url": "https://github.com/kenokabe"
+  },
   "license": "MIT",
 
   "main": "./lib/markdown-stream.js",
