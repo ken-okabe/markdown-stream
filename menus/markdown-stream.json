@@ -1,16 +1,20 @@
 {
-  "context-menu": {
-    ".overlayer": {
-      "MarkdownStream": "markdown-stream:preview"
-    }
-  },
   "menu": [
     {
       "label": "Packages",
       "submenu": [
         {
           "label": "MarkdownStream",
-          "command": "markdown-stream:preview"
+          "submenu": [
+            {
+              "label": "On/ShowURL",
+              "command": "markdown-stream:on"
+            },
+            {
+              "label": "Off",
+              "command": "markdown-stream:off"
+            }
+          ]
         }
       ]
     }
