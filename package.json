@@ -1,6 +1,6 @@
 {
   "name": "markdown-stream",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Markdown Live Streaming Preview with external WebBrowsers for GitHub ATOM",
   "repository": "https://github.com/kenokabe/markdown-stream",
   "author": {
