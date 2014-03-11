@@ -1,22 +1,19 @@
 {
   "name": "markdown-stream",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Markdown Live Streaming Preview with external WebBrowsers for GitHub ATOM",
   "repository": "https://github.com/kenokabe/markdown-stream",
-  "author":
-  {
+  "author": {
     "name": "Ken OKABE",
     "email": "kenokabe@gmail.com",
     "url": "https://github.com/kenokabe"
   },
   "license": "MIT",
   "main": "./lib/markdown-stream.js",
-  "engines":
-  {
+  "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies":
-  {
+  "dependencies": {
     "rpc-streamx": "*",
     "stream-websocket": "*",
     "ws": "*",
@@ -24,8 +21,7 @@
     "marked": "*",
     "browserify": "*"
   },
-  "scripts":
-  {
+  "scripts": {
     "install": "browserify ./lib/www/js/index.js -o ./lib/www/js/index.bundle.js"
   }
 }
