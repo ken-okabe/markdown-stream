@@ -34,3 +34,39 @@ apm install markdown-stream
 Search `markdown` or `markdown-stream`
 
 Then Install.
+
+##Customize Output
+
+```
+~/.atom/packages/markdown-stream/lib/www
+```
+
+![](http://kenokabe.github.io/contents/img/customwww.png)
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>
+    MarkdownStream
+</title>
+<!--   any css    -->
+<link rel="stylesheet" type="text/css" href="./custom.css">
+<link rel="stylesheet" type="text/css" href="./atelier-forest.dark.css">
+<!--===== Don't  Touch ===========-->
+     <script type="text/javascript" src="./js/jquery-2.0.3.min.js"></script>
+     <script type="text/javascript" src="./js/index.bundle.js"></script>
+<!--========================-->
+</head>
+<body>
+<!-- <div id="streamDIV"></div>  is
+the end point of the whole work;
+you can wrap  it with any HTML tags here -->
+         <div id="streamDIV"></div>
+</body>
+</html>
+```
