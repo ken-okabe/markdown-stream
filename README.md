@@ -1,9 +1,8 @@
 #Markdown Stream
-###Markdown Live Streaming Preview for GitHub ATOM editor
-### markdown-stream package
----
-![](http://kenokabe.github.io/contents/img/mdstream.png)
+## markdown-stream package
+####Markdown Live Streaming Preview for GitHub ATOM editor
 
+![](http://kenokabe.github.io/contents/img/mdstream.png)
 
 
 - **Streaming View** while you are typing text without saving the document.
