@@ -2,7 +2,7 @@
 ###Markdown Live Streaming Preview for GitHub ATOM editor
 ### markdown-stream package
 ---
-![](https://github.com/kenokabe/markdown-stream)
+![](http://kenokabe.github.io/contents/img/mdstream.png)
 
 
 
